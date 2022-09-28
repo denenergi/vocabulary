@@ -1,0 +1,311 @@
+{
+  "words": [
+    {
+      "id": "привіт",
+      "word": "привіт",
+      "translateWord": "hello"
+    },
+    {
+      "id": "добре",
+      "word": "добре",
+      "translateWord": "fine"
+    },
+    {
+      "id": "велосипед",
+      "word": "велосипед",
+      "translateWord": "bicycle"
+    },
+    {
+      "id": "розмови",
+      "word": "розмови",
+      "translateWord": "conversations"
+    },
+    {
+      "id": "погляд",
+      "word": "погляд",
+      "translateWord": "view"
+    },
+    {
+      "id": "важко",
+      "word": "важко",
+      "translateWord": "hard"
+    },
+    {
+      "id": "ніч",
+      "word": "ніч",
+      "translateWord": "night"
+    },
+    {
+      "id": "яскраво",
+      "word": "яскраво",
+      "translateWord": "bright"
+    },
+    {
+      "id": "склад",
+      "word": "склад",
+      "translateWord": "storage"
+    },
+    {
+      "id": "тихо",
+      "word": "тихо",
+      "translateWord": "quietly"
+    },
+    {
+      "id": "розробник",
+      "word": "розробник",
+      "translateWord": "developer"
+    },
+    {
+      "id": "спроба",
+      "word": "спроба",
+      "translateWord": "attempt"
+    },
+    {
+      "id": "дихання",
+      "word": "дихання",
+      "translateWord": "breath"
+    },
+    {
+      "id": "зявитися",
+      "word": "зявитися",
+      "translateWord": "appear"
+    },
+    {
+      "id": "замок",
+      "word": "замок",
+      "translateWord": "castle"
+    }
+  ],
+  "results": [
+    {
+      "answers": [
+        {
+          "word": "hard",
+          "rightAnswer": false
+        },
+        {
+          "word": "quietly",
+          "rightAnswer": false
+        },
+        {
+          "word": "appear",
+          "rightAnswer": false
+        },
+        {
+          "word": "bicycle",
+          "rightAnswer": false
+        },
+        {
+          "word": "bicycle",
+          "rightAnswer": false
+        },
+        {
+          "word": "hard",
+          "rightAnswer": false
+        },
+        {
+          "word": "attempt",
+          "rightAnswer": false
+        },
+        {
+          "word": "fine",
+          "rightAnswer": false
+        },
+        {
+          "word": "view",
+          "rightAnswer": false
+        },
+        {
+          "word": "fine",
+          "rightAnswer": false
+        }
+      ],
+      "time": "28.09.2022, 11:51:01",
+      "id": 1
+    },
+    {
+      "answers": [
+        {
+          "word": "storage",
+          "rightAnswer": true
+        },
+        {
+          "word": "attempt",
+          "rightAnswer": true
+        },
+        {
+          "word": "hello",
+          "rightAnswer": true
+        },
+        {
+          "word": "hard",
+          "rightAnswer": true
+        },
+        {
+          "word": "appear",
+          "rightAnswer": true
+        },
+        {
+          "word": "quietly",
+          "rightAnswer": true
+        },
+        {
+          "word": "breath",
+          "rightAnswer": false
+        },
+        {
+          "word": "view",
+          "rightAnswer": true
+        },
+        {
+          "word": "bright",
+          "rightAnswer": true
+        },
+        {
+          "word": "developer",
+          "rightAnswer": false
+        }
+      ],
+      "time": "28.09.2022, 14:52:09",
+      "id": 2
+    },
+    {
+      "answers": [
+        {
+          "word": "hello",
+          "rightAnswer": true
+        },
+        {
+          "word": "storage",
+          "rightAnswer": false
+        },
+        {
+          "word": "fine",
+          "rightAnswer": true
+        },
+        {
+          "word": "developer",
+          "rightAnswer": true
+        },
+        {
+          "word": "attempt",
+          "rightAnswer": false
+        },
+        {
+          "word": "bicycle",
+          "rightAnswer": false
+        },
+        {
+          "word": "castle",
+          "rightAnswer": false
+        },
+        {
+          "word": "appear",
+          "rightAnswer": false
+        },
+        {
+          "word": "quietly",
+          "rightAnswer": false
+        },
+        {
+          "word": "conversations",
+          "rightAnswer": true
+        }
+      ],
+      "time": "28.09.2022, 16:38:20",
+      "id": 3
+    },
+    {
+      "answers": [
+        {
+          "word": "developer",
+          "rightAnswer": true
+        },
+        {
+          "word": "hello",
+          "rightAnswer": true
+        },
+        {
+          "word": "storage",
+          "rightAnswer": true
+        },
+        {
+          "word": "attempt",
+          "rightAnswer": true
+        },
+        {
+          "word": "appear",
+          "rightAnswer": true
+        },
+        {
+          "word": "castle",
+          "rightAnswer": true
+        },
+        {
+          "word": "hard",
+          "rightAnswer": true
+        },
+        {
+          "word": "view",
+          "rightAnswer": true
+        },
+        {
+          "word": "quietly",
+          "rightAnswer": true
+        },
+        {
+          "word": "conversations",
+          "rightAnswer": true
+        }
+      ],
+      "time": "28.09.2022, 16:48:03",
+      "id": 4
+    },
+    {
+      "answers": [
+        {
+          "word": "bicycle",
+          "rightAnswer": true
+        },
+        {
+          "word": "fine",
+          "rightAnswer": true
+        },
+        {
+          "word": "breath",
+          "rightAnswer": true
+        },
+        {
+          "word": "conversations",
+          "rightAnswer": true
+        },
+        {
+          "word": "quietly",
+          "rightAnswer": true
+        },
+        {
+          "word": "hello",
+          "rightAnswer": true
+        },
+        {
+          "word": "appear",
+          "rightAnswer": true
+        },
+        {
+          "word": "bright",
+          "rightAnswer": true
+        },
+        {
+          "word": "view",
+          "rightAnswer": true
+        },
+        {
+          "word": "hard",
+          "rightAnswer": false
+        }
+      ],
+      "time": "28.09.2022, 17:03:37",
+      "id": 5
+    }
+  ]
+}

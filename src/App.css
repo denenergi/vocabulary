@@ -1,0 +1,51 @@
+
+
+.list{
+  text-align: center;
+}
+
+.test-form {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.radio {
+  margin: 15px 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.test-title {
+  font-size: 22px;
+  margin: 10px 0 20px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.radio-input {
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.false-answer {
+  background-color: rgb(240, 34, 34);
+}
+
+
+.right-answer {
+  background-color: rgb(23, 248, 23);
+}
+
+.result-title {
+  text-align: center;
+}
+
+.submit-button {
+  width: fit-content;
+}
+
+.input {
+  width: 300px;
+}
