@@ -74,6 +74,11 @@
       "id": "замок",
       "word": "замок",
       "translateWord": "castle"
+    },
+    {
+      "id": "я",
+      "word": "я",
+      "translateWord": "i"
     }
   ],
   "results": [
@@ -306,6 +311,52 @@
       ],
       "time": "28.09.2022, 17:03:37",
       "id": 5
+    },
+    {
+      "answers": [
+        {
+          "word": "hard",
+          "rightAnswer": true
+        },
+        {
+          "word": "view",
+          "rightAnswer": true
+        },
+        {
+          "word": "castle",
+          "rightAnswer": true
+        },
+        {
+          "word": "bicycle",
+          "rightAnswer": true
+        },
+        {
+          "word": "breath",
+          "rightAnswer": true
+        },
+        {
+          "word": "i",
+          "rightAnswer": true
+        },
+        {
+          "word": "conversations",
+          "rightAnswer": true
+        },
+        {
+          "word": "hello",
+          "rightAnswer": true
+        },
+        {
+          "word": "fine",
+          "rightAnswer": true
+        },
+        {
+          "word": "attempt",
+          "rightAnswer": false
+        }
+      ],
+      "time": "28.09.2022, 20:21:07",
+      "id": 6
     }
   ]
 }
