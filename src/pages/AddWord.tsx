@@ -1,12 +1,22 @@
 import React, { useEffect, useState } from 'react'
 import { postWord } from '../api/fetchClient';
+import { Word } from '../types';
 
-const AddWord = () => {
+interface Props {
+  words: Word[]
+}
+
+const AddWord: React.FC<Props> = ({ words }) => {
   const [newWord, setNewWord] = useState('');
   const [trabslateWord, setTranslateWord] = useState('');
   const [isAddWord, setIsAddWord] = useState(false);
+  const [isDuplicate, setIsDuplicate] = useState(false);
 
-  const handlerAddWord = () => {
+  const duplicate = () => {
+    return (words.some(word => word.word === newWord)) ? setIsDuplicate(true) : addNewWord()
+  }
+
+  const addNewWord = () => {
     const newData = {
       id: newWord,
       word: newWord,
@@ -19,9 +29,11 @@ const AddWord = () => {
   };
 
   useEffect(() => {
-    setTimeout(() => 
-      setIsAddWord(false), 3000)
-}, [isAddWord]);
+    setTimeout(() => {
+      setIsDuplicate(false);
+      setIsAddWord(false) 
+    }, 2000)
+}, [isAddWord, isDuplicate]);
 
 return (
   <div>
@@ -29,7 +41,7 @@ return (
     <form
       onSubmit={event => {
         event.preventDefault();
-        handlerAddWord();
+        duplicate();
       }}
     >
       <div className="field">
@@ -40,7 +52,7 @@ return (
             type="text" placeholder="Ввведіть слово"
             required
             value={newWord}
-            onChange={event => setNewWord(event.target.value)}
+            onChange={event => setNewWord(event.target.value.toLowerCase())}
           />
         </div>
       </div>
@@ -52,7 +64,7 @@ return (
             type="text" placeholder="Ввведіть переклад"
             required
             value={trabslateWord}
-            onChange={event => setTranslateWord(event.target.value)}
+            onChange={event => setTranslateWord(event.target.value.toLowerCase())}
           />
         </div>
       </div>
@@ -90,6 +102,23 @@ return (
           Слово було добавлене в словник
         </div>
       </article>
+    )}
+    {isDuplicate && (
+      <article className="message is-danger">
+      <div className="message-header">
+        <p>Danger</p>
+        <button
+          className="delete"
+          aria-label="delete"
+          onClick={() => {
+            setIsDuplicate(false)
+          }}
+        ></button>
+      </div>
+      <div className="message-body">
+        Таке слово вже існує!
+      </div>
+    </article>
     )}
   </div>
 )

@@ -83,7 +83,7 @@ const App = () => {
             <Route
               path="addWord"
               element={
-                <AddWord />
+                <AddWord words={words} />
               }
             />
             <Route
