@@ -34,10 +34,14 @@ const Test: React.FC<Props> = ({ word, setPage }) => {
 
   return (
     <>
-      <h2 className='test-title'>{word.translateWord}</h2>
+      <div className='test-header'>
+        <h2 className='test-title'>{`слово - ${word.translateWord}`}</h2>
+        <p className='test-counter'>{`${answer.length + 1}/10`}</p>
+      </div>
       <form className='test-form' onSubmit={event => {
         event.preventDefault();
       }}>
+        <p className='test-text'>Виберіть правильний переклад</p>
         <div className="buttons">
           <input
             className="button is-primary is-light"

@@ -1,4 +1,4 @@
-import { AllAnswer, Answer, Word } from "../types";
+import { AllAnswer, Word } from "../types";
 
 const BASE_URL = 'http://localhost:3001';
 
