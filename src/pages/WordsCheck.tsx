@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import shuffle from '../function/shuffle';
+import shuffle from '../helpers/shuffle';
 import { Word, WordCheck } from '../types';
 import Test from './Test';
 

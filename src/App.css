@@ -19,7 +19,7 @@
 
 .test-title {
   font-size: 22px;
-  margin: 10px 0 20px 10px;
+  margin: 10px 10px 10px 0;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -48,4 +48,17 @@
 
 .input {
   width: 300px;
+}
+
+.test-text {
+  margin-bottom: 5px;
+}
+
+.test-header {
+  display: flex;
+  align-items: center;
+}
+
+.test-counter {
+  margin-left: 100px;
 }

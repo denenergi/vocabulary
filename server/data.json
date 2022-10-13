@@ -84,6 +84,11 @@
       "id": "ти",
       "word": "ти",
       "translateWord": "you"
+    },
+    {
+      "id": "порада",
+      "word": "порада",
+      "translateWord": "advance"
     }
   ],
   "results": [
@@ -362,6 +367,98 @@
       ],
       "time": "28.09.2022, 20:21:07",
       "id": 6
+    },
+    {
+      "answers": [
+        {
+          "word": "attempt",
+          "rightAnswer": true
+        },
+        {
+          "word": "castle",
+          "rightAnswer": true
+        },
+        {
+          "word": "bright",
+          "rightAnswer": true
+        },
+        {
+          "word": "advance",
+          "rightAnswer": true
+        },
+        {
+          "word": "appear",
+          "rightAnswer": true
+        },
+        {
+          "word": "bicycle",
+          "rightAnswer": true
+        },
+        {
+          "word": "hard",
+          "rightAnswer": true
+        },
+        {
+          "word": "quietly",
+          "rightAnswer": true
+        },
+        {
+          "word": "view",
+          "rightAnswer": true
+        },
+        {
+          "word": "you",
+          "rightAnswer": true
+        }
+      ],
+      "time": "06.10.2022, 23:09:22",
+      "id": 7
+    },
+    {
+      "answers": [
+        {
+          "word": "attempt",
+          "rightAnswer": false
+        },
+        {
+          "word": "castle",
+          "rightAnswer": false
+        },
+        {
+          "word": "view",
+          "rightAnswer": false
+        },
+        {
+          "word": "you",
+          "rightAnswer": false
+        },
+        {
+          "word": "quietly",
+          "rightAnswer": false
+        },
+        {
+          "word": "hello",
+          "rightAnswer": false
+        },
+        {
+          "word": "breath",
+          "rightAnswer": true
+        },
+        {
+          "word": "storage",
+          "rightAnswer": false
+        },
+        {
+          "word": "hard",
+          "rightAnswer": false
+        },
+        {
+          "word": "i",
+          "rightAnswer": false
+        }
+      ],
+      "time": "13.10.2022, 12:12:37",
+      "id": 8
     }
   ]
 }
